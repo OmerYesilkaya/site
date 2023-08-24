@@ -3,13 +3,13 @@ import circleColor from "@/assets/circleColor.svg";
 
 export const Home: React.FC = () => {
     return (
-        <div className="gap-32 flex flex-col relative">
+        <div className="gap-10 xl:gap-32 flex flex-col relative">
             <img
                 src={circleColor}
-                className="absolute w-1/4 right-12 opacity-30"
+                className="absolute w-full xl:w-1/4 xl:right-12 opacity-10 xl:opacity-30"
             />
             <ThreeJs />
-            <div className="w-2/3">
+            <div className="xl:w-2/3 w-full text-center xl:text-left xl:gap-0 gap-2 flex flex-col xl:mt-0 mt-40">
                 <h2 className="text-zinc-300 font-medium text-3xl font-default">
                     Hello, I'm Omer 👋
                 </h2>

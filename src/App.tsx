@@ -3,8 +3,8 @@ import { Home, ProjectDetails, Projects } from "@/pages";
 
 const Layout = () => {
     return (
-        <div className="bg-zinc-900 min-h-screen flex justify-center p-32 bg-noise">
-            <div className="w-1/3 min-w-[800px]">
+        <div className="bg-zinc-900 min-h-screen flex justify-center p-10 xl:p-32 bg-noise">
+            <div className="xl:w-1/3 xl:min-w-[800px]">
                 <Outlet />
             </div>
         </div>

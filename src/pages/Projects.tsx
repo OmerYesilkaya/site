@@ -10,7 +10,7 @@ export const Projects: React.FC = () => {
                     Projects
                 </h4>
                 <Link to="/">
-                    <button className="text-zinc-500 font-default underline hover:text-zinc-200 transition-all cursor-pointer decoration-dashed select-none underline-offset-4">
+                    <button className="text-zinc-500 font-default underline hover:text-zinc-200 transition-all cursor-pointer decoration-dashed select-none underline-offset-4 whitespace-nowrap">
                         Go back home
                     </button>
                 </Link>

@@ -9,15 +9,15 @@ export const ProjectDetails: React.FC = () => {
         <div className="flex flex-col font-default gap-6">
             <div className="flex w-full justify-between">
                 <div>
-                    <h4 className="text-zinc-500 text-xl leading-3">
+                    <h4 className="text-zinc-500 text-lg xl:text-xl leading-3">
                         {projectDetails.company}
                     </h4>
-                    <h2 className="text-zinc-400 text-4xl font-bold">
+                    <h2 className="text-zinc-400 text-2xl xl:text-4xl font-bold">
                         {projectDetails.title}
                     </h2>
                 </div>
                 <Link to="/projects">
-                    <button className="text-zinc-500 font-default underline hover:text-zinc-200 transition-all cursor-pointer decoration-dashed select-none underline-offset-4">
+                    <button className="text-zinc-500 font-default underline hover:text-zinc-200 transition-all cursor-pointer decoration-dashed select-none underline-offset-4 whitespace-nowrap">
                         Go back
                     </button>
                 </Link>
