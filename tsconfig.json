@@ -10,7 +10,8 @@
             "@utils/*": ["src/utils/*"],
             "@models/*": ["src/models/*"],
             "@types/*": ["src/types/*"],
-            "@constants/*": ["src/types/*"]
+            "@constants/*": ["src/constants/*"],
+            "@pages/*": ["src/pages/*"]
         },
 
         "target": "ES2020",

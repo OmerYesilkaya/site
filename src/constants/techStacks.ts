@@ -7,6 +7,8 @@ import NextJSIcon from "@/assets/next.svg";
 import ThreeIcon from "@/assets/threejs.svg";
 import TailwindIcon from "@/assets/tailwind.svg";
 import ReactIcon from "@/assets/react.svg";
+import HTMLIcon from "@/assets/html.svg";
+import CSSIcon from "@/assets/css.svg";
 
 export const techStacks = {
     reactQuery: {
@@ -46,5 +48,25 @@ export const techStacks = {
         icon: "https://avatars.githubusercontent.com/u/20658825?s=200&v=4",
         title: "Styled Components",
         url: "https://styled-components.com/",
+    },
+    zustand: {
+        icon: "https://avatars.githubusercontent.com/u/45790596?s=48&v=4",
+        title: "Zustand",
+        url: "https://zustand-demo.pmnd.rs/",
+    },
+    chakraUI: {
+        icon: "https://avatars.githubusercontent.com/u/54212428?s=48&v=4",
+        title: "Chakra UI",
+        url: "https://chakra-ui.com/",
+    },
+    html: {
+        icon: HTMLIcon,
+        title: "HTML",
+        url: "https://en.wikipedia.org/wiki/HTML",
+    },
+    css: {
+        icon: CSSIcon,
+        title: "CSS",
+        url: "https://en.wikipedia.org/wiki/CSS",
     },
 } as const;

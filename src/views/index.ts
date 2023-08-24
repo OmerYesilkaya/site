@@ -1,2 +1,2 @@
-export * from "./Projects";
+export * from "./LatestProjects";
 export * from "./ThreeJs";
