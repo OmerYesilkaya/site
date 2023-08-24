@@ -11,4 +11,4 @@ This is going to be the new omeryesilkaya.com.
 -   ~~Tooltips for tech stacks?~~
 -   ~~Make it mobile friendly~~
 -   ~~Fix favicon + title~~
--   Publish it
+-   ~~Publish it~~
