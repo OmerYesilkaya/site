@@ -1,7 +1,7 @@
 import authorVideo from "@/assets/videos/author.mp4";
 import choysesVideo from "@/assets/videos/choyses.mp4";
 import cmosWebsiteVideo from "@/assets/videos/cmosWebsite.mp4";
-import fitroomVideo from "@/assets/videos/fitroom.mp4";
+// import fitroomVideo from "@/assets/videos/fitroom.mp4";
 import onlineExpoVideo from "@/assets/videos/onlineExpo.mp4";
 import rickAndMortyVideo from "@/assets/videos/rickAndMorty.mp4";
 import sailingAndPeopleVideo from "@/assets/videos/sailingAndPeople.mp4";
@@ -24,17 +24,17 @@ export const projects = {
         ],
         techStack: ["ts", "redux", "styledComponents", "three", "react"],
     },
-    vto: {
-        video: fitroomVideo,
-        title: "Fitroom",
-        description:
-            "A virtual try-on project that allows users to try on the garments created in Author or on any other CAD tool on a custom tailored virtual avatar.",
-        company: "SEDDI",
-        accomplishments: [
-            "As one of the select developers entrusted with the responsibility of devising a cutting-edge virtual fashion try-on solution, I played an integral role in developing a platform that empowers users to effortlessly simulate custom avatars, try-on different garments and make informed purchasing decisions with ease.",
-        ],
-        techStack: ["ts", "redux", "styledComponents", "three", "react"],
-    },
+    // vto: {
+    //     video: fitroomVideo,
+    //     title: "Fitroom",
+    //     description:
+    //         "A virtual try-on project that allows users to try on the garments created in Author or on any other CAD tool on a custom tailored virtual avatar.",
+    //     company: "SEDDI",
+    //     accomplishments: [
+    //         "As one of the select developers entrusted with the responsibility of devising a cutting-edge virtual fashion try-on solution, I played an integral role in developing a platform that empowers users to effortlessly simulate custom avatars, try-on different garments and make informed purchasing decisions with ease.",
+    //     ],
+    //     techStack: ["ts", "redux", "styledComponents", "three", "react"],
+    // },
     vidyodan: {
         video: vidyodanVideo,
         title: "Vidyodan",

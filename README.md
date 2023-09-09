@@ -12,3 +12,5 @@ This is going to be the new omeryesilkaya.com.
 -   ~~Make it mobile friendly~~
 -   ~~Fix favicon + title~~
 -   ~~Publish it~~
+-   Add our game here somewhere 🥲
+-   Add TS certificates, also finish the last sections of the course 😔
