@@ -16,8 +16,9 @@ export const LatestProjects: React.FC = () => {
             </div>
             <div className="flex flex-col gap-2 text-zinc-200">
                 <ProjectItem name="author" />
-                <ProjectItem name="vto" />
+                {/* <ProjectItem name="vto" /> */}
                 <ProjectItem name="vidyodan" />
+                <ProjectItem name="choyses" />
             </div>
         </div>
     );
