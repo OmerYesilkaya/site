@@ -1,15 +1,38 @@
 import authorVideo from "@/assets/videos/author.mp4";
 import choysesVideo from "@/assets/videos/choyses.mp4";
 import cmosWebsiteVideo from "@/assets/videos/cmosWebsite.mp4";
-// import fitroomVideo from "@/assets/videos/fitroom.mp4";
+import fitroomVideo from "@/assets/videos/fitroom.mp4";
 import onlineExpoVideo from "@/assets/videos/onlineExpo.mp4";
 import rickAndMortyVideo from "@/assets/videos/rickAndMorty.mp4";
 import sailingAndPeopleVideo from "@/assets/videos/sailingAndPeople.mp4";
 import sudokuVideo from "@/assets/videos/sudoku.mp4";
 import trelloVideo from "@/assets/videos/trello.mp4";
 import vidyodanVideo from "@/assets/videos/vidyodan.mp4";
+import oxoloVideo from "@/assets/videos/oxolo.mp4";
 
 export const projects = {
+    oxolo: {
+        video: oxoloVideo,
+        title: "Oxolo",
+        description:
+            "An AI-powered video creation tool, revolutionizes video production with intuitive features that simplify editing and elevate content creation.",
+        company: "OXOLO GmbH",
+        accomplishments: [
+            "Developed and maintained the front-end of an AI-powered video creation tool using TypeScript and React Query, enabling users to produce professional-grade videos with AI avatars and lip-sync functionality.",
+            "Maintained and enhanced the video editor, landing page, and user dashboard using Tailwind CSS and Next.js, ensuring a seamless and intuitive user experience. Utilized Redux in the old editor, transitioning to React Query for improved state management and performance in the revamped version.",
+            "Collaborated with the growth team to design and implement a new pricing page, contributing to a successful increase in sales.",
+            "Worked as part of a team to revamp the front-end of the entire application, incorporating modern design principles to elevate the product’s visual appeal and usability.",
+        ],
+        techStack: [
+            "ts",
+            "remotion",
+            "redux",
+            "reactQuery",
+            "tailwind",
+            "nextJS",
+            "react",
+        ],
+    },
     author: {
         video: authorVideo,
         title: "Author",
@@ -24,17 +47,17 @@ export const projects = {
         ],
         techStack: ["ts", "redux", "styledComponents", "three", "react"],
     },
-    // vto: {
-    //     video: fitroomVideo,
-    //     title: "Fitroom",
-    //     description:
-    //         "A virtual try-on project that allows users to try on the garments created in Author or on any other CAD tool on a custom tailored virtual avatar.",
-    //     company: "SEDDI",
-    //     accomplishments: [
-    //         "As one of the select developers entrusted with the responsibility of devising a cutting-edge virtual fashion try-on solution, I played an integral role in developing a platform that empowers users to effortlessly simulate custom avatars, try-on different garments and make informed purchasing decisions with ease.",
-    //     ],
-    //     techStack: ["ts", "redux", "styledComponents", "three", "react"],
-    // },
+    vto: {
+        video: fitroomVideo,
+        title: "Fitroom",
+        description:
+            "A virtual try-on project that allows users to try on the garments created in Author or on any other CAD tool on a custom tailored virtual avatar.",
+        company: "SEDDI",
+        accomplishments: [
+            "As one of the select developers entrusted with the responsibility of devising a cutting-edge virtual fashion try-on solution, I played an integral role in developing a platform that empowers users to effortlessly simulate custom avatars, try-on different garments and make informed purchasing decisions with ease.",
+        ],
+        techStack: ["ts", "redux", "styledComponents", "three", "react"],
+    },
     vidyodan: {
         video: vidyodanVideo,
         title: "Vidyodan",

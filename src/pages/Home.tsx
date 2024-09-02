@@ -16,7 +16,7 @@ export const Home: React.FC = () => {
                 <p className="text-zinc-400 text-sm">
                     I'm a front-end developer with{" "}
                     <span className="text-sky-500 hover:text-sky-300 transition-all">
-                        more than 3 years of experience
+                        more than 4 years of experience
                     </span>
                     , specializing in creating high-performing and visually
                     appealing applications. Currently working with{" "}

@@ -15,10 +15,10 @@ export const LatestProjects: React.FC = () => {
                 </Link>
             </div>
             <div className="flex flex-col gap-2 text-zinc-200">
+                <ProjectItem name="oxolo" />
                 <ProjectItem name="author" />
-                {/* <ProjectItem name="vto" /> */}
+                <ProjectItem name="vto" />
                 <ProjectItem name="vidyodan" />
-                <ProjectItem name="choyses" />
             </div>
         </div>
     );

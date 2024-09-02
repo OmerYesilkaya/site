@@ -9,6 +9,7 @@ import TailwindIcon from "@/assets/tailwind.svg";
 import ReactIcon from "@/assets/react.svg";
 import HTMLIcon from "@/assets/html.svg";
 import CSSIcon from "@/assets/css.svg";
+import RemotionIcon from "@/assets/remotion.svg";
 
 export const techStacks = {
     reactQuery: {
@@ -68,5 +69,10 @@ export const techStacks = {
         icon: CSSIcon,
         title: "CSS",
         url: "https://en.wikipedia.org/wiki/CSS",
+    },
+    remotion: {
+        icon: RemotionIcon,
+        title: "Remotion",
+        url: "https://www.remotion.dev/",
     },
 } as const;
